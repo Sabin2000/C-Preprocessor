@@ -1,0 +1,56 @@
+int add(int a, int b);
+int subtract_from_const(int n);
+int multiply_by_const(int n);
+double divide_by_const(int n);
+double average(int size, int *array);
+double area_of_circle(double radius);
+int light_speed();
+
+
+
+
+
+
+
+
+
+
+int add(int a, int b) 
+{
+    return a + b; 
+}
+
+int subtract_from_const(int n) 
+{
+    return X - n;
+}
+
+int multiply_by_const(int n) 
+{
+    return Y * n;
+}
+
+double divide_by_const(int n) 
+{
+    return (double) Z / n;
+}
+
+double average(int size, int *array) 
+{
+    int total = 0; 
+    for(int i=0; i<size; i++) 
+    {
+        total += array[i];
+    }
+    return (double)total/size;
+}
+
+double area_of_circle(double radius)
+{
+    return radius * radius * PI ;
+}
+
+int light_speed()
+{
+    return SPEED_OF_LIGHT ;
+}
