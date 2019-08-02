@@ -22,4 +22,4 @@ How do I build the application? (Windows).
 
 # Tool Chain Used
 
-Toolchain Used: The application has been built using the Microsoft Visual Studio 2017 Build Tools.
+> Toolchain Used: The application has been built using the Microsoft Visual Studio 2017 Build Tools.
