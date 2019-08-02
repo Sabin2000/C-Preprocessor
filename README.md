@@ -1,6 +1,10 @@
 # C-Preprocessor Project, How Does It Work?
 
-C Preprocessor Application  Version 1.0.0 Author: Sabin Constantin Lungu Purpose of Application: The purpose of this application is to read in a .c file in the command line using the -i argument that will count the number of non-empty lines, number of comments, remove the comments from the file, remove "#include" and replace them with the methods in the header file and to also preprocess the #define at the start of the file.  A .o output file will be written to the disk automatically once the application is built and executed using "coursework1 -i filename.c" The -c command line argument is included in the makefile that will keep the comments instead of removing them in the file
+> C Preprocessor Application  Version 1.0.0 
+
+> Author: Sabin Constantin Lungu 
+
+> Purpose of Application: The purpose of this application is to read in a .c file in the command line using the -i argument that will count the number of non-empty lines, number of comments, remove the comments from the file, remove "#include" and replace them with the methods in the header file and to also preprocess the #define at the start of the file.  A .o output file will be written to the disk automatically once the application is built and executed using "coursework1 -i filename.c" The -c command line argument is included in the makefile that will keep the comments instead of removing them in the file
 
 # How Do I Build The Preprocessor?
 
