@@ -4,7 +4,7 @@
 #include <assert.h>
 #include <string.h>
 
-#define FILESIZE 512
+#define FILESIZE 512 // Defines the file size. Defines the number of bytes to be allocated in memory.
 
 /*
 @Author Sabin Constantin Lungu
@@ -20,19 +20,18 @@ void countLines(FILE *fileName) { // A void method that counts the lines in the 
   
   fseek(fileName, 0, SEEK_SET); // Set the file position to the start
 
-   if(fileName !=NULL) {
+   if(fileName !=NULL) { // If the file is not empty
     
-      while(!feof(fileName)) {
+      while(!feof(fileName)) { // Loop over the contents of the file.
       	char theComments = fgetc(fileName); // Get the characters from the file
 
-         if(theComments == '\n') {
-          lineCounter++;
+         if(theComments == '\n') { // If a there is a new line in the file
+          lineCounter++; // Increment the counter
           
           if(fgetc(fileName) == '\n'); // If the string file is equal to a new line
-         	
+          
          }
       }
-      
       printf("\n Total non-empty lines for the Given file: %d", lineCounter);
    }
 }
